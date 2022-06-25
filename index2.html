@@ -24,11 +24,11 @@
 <link href="css/uicons-regular-rounded.css" rel="stylesheet">
 <link href="css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;300;400;500;600;700;800;900&amp;display=swap" rel="stylesheet">
 	<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script><script>
 		 $(document).ready(function(){
@@ -43,11 +43,11 @@
 <style type="text/css">
 
 body{
-background:#7F5300;
-color:#FFFFFF;
-font-family: 'Londrina Solid', sans-serif;
-font-size:20px;
-font-weight: 300;
+background:#FFFFFF;
+color:#333;
+font-family: 'Poppins', sans-serif;
+font-size:16px;
+font-weight: 400;
 font-style: normal;
 text-rendering: optimizeLegibility !important;
 -webkit-font-smoothing: antialiased !important;
@@ -82,10 +82,6 @@ padding:12px 0;
 }
 	
 .nav-link{
-color:#FFDE59 !important;
-font-size:20px;
-letter-spacing:0em;
-    font-weight:500;
 }
 
 /* ---------------- */
@@ -102,17 +98,16 @@ letter-spacing:0em;
 	
 .hero-container .hero-title{
 font-weight:700;
-font-size:3em;;
+font-size:2.5em;;
 letter-spacing:0px;
     position:relative;
-color:#FFFFFF;
+color:#333;
 }
 
     
     
 .hero-container .hero-description{
-font-size:1.25em;
-text-align: center !important;
+font-size:1em !important;
 }
     
     .hero-container .hero-img{
@@ -130,51 +125,18 @@ position:relative;
        /*animation-direction: alternate;*/
     }
     
-    .hero-image-run {
-        animation-duration: 3s;
-        animation-iteration-count: infinite;
-        animation-name: bounce-3;
-        animation-timing-function: linear;
-    }
-    
-    
-    @keyframes bounce-2 {
-        0%   { transform: translateX(50px) scaleX(1) ;}
-        
-        45%   { transform: scaleX(1);}
-        50%  { transform: translateX(-50px) scaleX(-1); }
-        
-        95%  { transform: scaleX(-1); }
-        100% { transform: translateX(50px) scaleX(1);}
-    }   
-    
-     @keyframes bounce-3 {
-        0%   { transform: translateY(0px);}
-        10%   { transform: translateY(-10px);}
-        20%   { transform: translateY(0px);}
-        30%   { transform: translateY(-10px);}
-        40%   { transform: translateY(0px);}
-        50%  { transform:  translateY(-10px); }
-        60%   { transform: translateY(0px);}
-       70%   { transform: translateY(-10px);}
-        80%   { transform: translateY(0px);}
-        90%   { transform: translateY(-10px);}
-        100% { transform: translateY(0px);}
-    } 
-
 
 .hero-container .buy-button{
 color: #FFFFFF;
-background-color: #CC1DDE;
-border-color: #CC1DDE;
+background-color: rgb(3, 125, 214);
 position: relative;
 z-index: 1;
 overflow: hidden;
-border-radius:1em;
+border-radius:50px;
 padding:16px 20px;
-font-weight:600;
+font-weight:400;
 letter-spacing:0px;
-font-size:1em;
+font-size:1.125em;
 }
 
 .hero-container .buy-button:hover, .hero-container .buy-button:focus{
@@ -182,17 +144,17 @@ font-size:1em;
 }
 
 .hero-container .telegram-button{
-color: #FFFFFF;
-background-color: #4CE8D3;
-border-color: #4CE8D3;
+color: rgb(3, 125, 214);
+    background:transparent;
+border: 2px solid rgb(3, 125, 214);
 position: relative;
 z-index: 1;
 overflow: hidden;
-border-radius:1em;
+border-radius:50px;
 padding:16px 20px;
-font-weight:600;
+font-weight:500;
 letter-spacing:0px;
-font-size:1em;
+font-size:1.125em;
 }
 
 .hero-container .telegram-button:hover, .hero-container .telegram-button:focus{
@@ -228,7 +190,7 @@ background:#FFA300;
 }
 
 .about-container{
-color:#FFFFFF;
+color:#333;
 padding-bottom:0 !important;
 }
 
@@ -516,7 +478,7 @@ font-size:1.5em;
 
 .hero-container .hero-title{
 font-weight:700;
-font-size:4em;
+font-size:3.5em;
 letter-spacing:0px;
 }
     
@@ -565,12 +527,15 @@ position:static !important;
 
 .nav-link{
 padding:12px;
-color:#FFFFFF !important;
+color:#333 !important;
     text-transform:capitalize;
-    font-size:1.125em;
+    font-size:1em;
     font-weight:400;
 }
-
+    
+.nav-link:hover{
+color: rgb(3, 125, 214) !important;
+}
 
 .navbar-toggler-icon{
 background-image:url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' x='0px' y='0px'%0Awidth='480' height='480'%0AviewBox='0 0 24 24'%0Astyle=' fill:%23FFFFFF;'%3E%3Cpath d='M 4.7070312 3.2929688 L 3.2929688 4.7070312 L 10.585938 12 L 3.2929688 19.292969 L 4.7070312 20.707031 L 12 13.414062 L 19.292969 20.707031 L 20.707031 19.292969 L 13.414062 12 L 20.707031 4.7070312 L 19.292969 3.2929688 L 12 10.585938 L 4.7070312 3.2929688 z'%3E%3C/path%3E%3C/svg%3E") !important;
@@ -599,11 +564,9 @@ text-align:center !important;
 }
 
     .nav-link{
-color:#FFFFFF !important;
 }
     
-     .nav-link:hover{
-color:#FFD70D !important;   
+     .nav-link:hover{ 
 	}
 	
 .navbar-toggler {
@@ -611,49 +574,6 @@ border:0;
 z-index:3;
 }
 
-}
-    
-    
-
-/* 3D MAGIC BUTTON */
-
-.pushable {
-    background: #A8854E;
-    border-radius: 12px;
-    border: none;
-    padding: 0;
-    cursor: pointer;
-    outline-offset: 4px;
-  }
-  .front {
-    display: block;
-    padding: 12px 18px;
-    border-radius: 12px;
-    font-size: 1.125em;
-    background: #FCC875;
-    font-weight:500;
-    color: white;
-    transform: translateY(-6px);
-  }
-
-  .pushable:active .front {
-    transform: translateY(-2px);
-  }
-
-.buy-pushable-button{
-background: #AA8F08;
-}
-
-.buy-pushable-button .front{
-background: #FFD70D;
-}
-
-.telegram-pushable-button{
-background: #AA4308;
-}
-
-.telegram-pushable-button .front{
-background: #FF650D;
 }
     
      /* LIVE BACKGROUND */
@@ -692,18 +612,18 @@ background: #FF650D;
 
 <header>
 <nav class="navbar navbar-expand-lg navbar-dark" id="#home">
-<div class="container" data-aos="fade">
+<div class="container aos-init aos-animate" data-aos="fade">
 <a class="navbar-brand d-flex flex-row justify-content-center align-items-center" href="/">
-    <img class="d-none img-fluid me-2" src="" style="max-height:34px;">
-<h1 class="mb-0" style="font-size:1em;font-weight:300;color:#FFFFFF">$CHEETOGE</h1></a>
+    <img class="img-fluid me-2" src="images/metamask-logo-text-vertical.png" style="max-height:34px;">
+</a>
 <button id="navToggler" class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
 <div class="navbar-collapse collapse" id="navbarTogglerDemo02" style="">
 <ul class="navbar-nav ms-auto pt-2 pt-lg-0">
-<li class="nav-item"><a class="nav-link" aria-current="page" href="#home">HOME</a></li>
-<li class="nav-item"><a class="nav-link" href="#about">ABOUT</a></li>
-<li class="nav-item"><a class="nav-link" href="#tokenomics">TOKENOMICS</a></li>
-<li class="nav-item"><a class="nav-link" href="#roadmap">ROADMAP</a></li>
-<li class="nav-item"><a class="nav-link" href="#swap">SWAP</a></li>
+<li class="nav-item"><a class="nav-link" aria-current="page" href="#home">Home</a></li>
+<li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+<li class="nav-item"><a class="nav-link" href="#tokenomics">Tokenomics</a></li>
+<li class="nav-item"><a class="nav-link" href="#roadmap">Roadmap</a></li>
+<li class="nav-item"><a class="nav-link" href="#swap">Swap</a></li>
 <li class="nav-item"><a class="nav-link" href="#faq">FAQ</a></li>
 
 
@@ -718,37 +638,26 @@ background: #FF650D;
 
     
 <section class="hero-section" style="position:relative;">
-    <div id="backgroundvideocontainer" class="background-video-container">
-<video class="background-video" autoplay="" muted="" loop="">
-<source src="images/video-2.webm" type="video/webm">
-</video>
-</div>
+    
 
-<div id="darkbackgroundoverlay" class="dark-background-overlay"></div>  
+  
 <div class="hero-container container py-5 d-flex flex-column justify-content-center align-items-center">
-<div class="row">
+<div class="row w-100">
 
-<div data-aos="fade-right" class="col-12 col-lg-6 d-flex flex-column justify-content-center align-items-center">
+<div data-aos="fade-right" class="col-12 col-lg-6 d-flex flex-column justify-content-center aos-init aos-animate">
 
-<h1 class="hero-title text-center"><span style="/*color:#8CC912;text-shadow: -1px 0 #FFFFFF, 0 1px #FFFFFF, 1px 0 #FFFFFF, 0 -1px #FFFFFF;*/">Cheetoge</span> <span style="/* color:#015CFF;text-shadow: -1px 0 #FFFFFF, 0 1px #FFFFFF, 1px 0 #FFFFFF, 0 -1px #FFFFFF;*/">Inu</span></h1>
+<h1 class="hero-title text-center text-lg-start"><span style="">Welcome To Metamask Inu!</span> </h1>
 
-<p class="hero-description mt-1">Cheetoge Inu is a hyper-deflationary, community-driven token deployed on the Binance Smart Chain</p>
-<div class="d-none d-flex flex-column flex-sm-row mt-3">
-<a type="button" class="buy-button btn btn-primary m-2 " href="https://pancakeswap.finance/swap?outputCurrency=0x6927874e3b90ca69a0cc5d34b38bdbfc0a4aeaba" target="_blank" style="box-shadow: rgba(204, 29, 222, 0.25) 0px 6px 12px -2px, rgba(204, 29, 222, 0.3) 0px 3px 7px -3px !important;">Buy On Pancakeswap</a>
-<a type="button" class="telegram-button btn btn-primary m-2" href="https://t.me/FartInu" target="_blank" style="box-shadow: rgba(76, 232, 211, 0.25) 0px 6px 12px -2px, rgba(76, 232, 211, 0.3) 0px 3px 7px -3px !important;">Join Our Telegram</a>
+<p class="hero-description mt-1 text-center text-lg-start">Metamask Inu is a hyper-deflationary, community-driven token deployed on the Binance Smart Chain</p>
+<div class="d-flex flex-column flex-sm-row mt-2 mb-2 mb-lg-0 justify-content-center justify-content-lg-start align-items-center  align-items-lg-start">
+<a type="button" class="buy-button btn btn-primary me-sm-3 mb-3 mb-sm-0" href="https://pancakeswap.finance/swap?outputCurrency=0x6927874e3b90ca69a0cc5d34b38bdbfc0a4aeaba" target="_blank" style="">Buy On Pancakeswap</a>
+<a type="button" class="telegram-button btn btn-primary " href="https://t.me/FartInu" target="_blank" style="">Join Our Telegram</a>
 </div>
 
-<div class="d-flex flex-column flex-sm-row mt-3">
 
-<a href="https://pancakeswap.finance/swap?outputCurrency=0x57bfa80a1d992a1ac83da0ea081d9273c7705e5e" target="_blank"><button class="w-100 pushable buy-pushable-button" data-aos="fade">
-  <span class="front">Buy On Pancakeswap</span>
-</button></a><a href="http://t.me/CheetogeInu" target="_blank"><button class="w-100 pushable telegram-pushable-button ms-sm-3 mt-3 mt-sm-0" data-aos="fade">
-  <span class="front">Join Our Telegram</span>
-</button></a>
-</div>
 </div><div class="overflow-hidden col-hero-image  col-12 col-lg-6 d-flex flex-column justify-content-center align-items-center py-5" style="position:relative;">
 
-<div class="hero-img-wrapper w-100" data-aos="fade-left"><img class="hero-img hero-image img-fluid w-100" src="images/logo-only.png" style="background:transparent !important;"></div>
+<div class="hero-img-wrapper w-100 aos-init aos-animate" data-aos="fade-left"><img class="hero-img hero-image img-fluid w-100" src="images/home-hero.png" style="background:transparent !important;"></div>
 
 
 
@@ -760,11 +669,11 @@ background: #FF650D;
 
 <section id="about" class="section about-section">
 <div class="section-container about-container container py-5">
-<h2 class="section-title about-title mt-4 text-center" data-aos="fade" style="">ABOUT</h2>
+<h2 class="section-title about-title mt-4 text-center aos-init aos-animate" data-aos="fade" style="">ABOUT</h2>
 
 <div class="row mt-5">
 <div class="col-12 text-center">
-<p class="section-description about-description" data-aos="fade">CheetogeInu is a hyper-deflationary, community-driven token deployed on the Binance Smart Chain through the BSC medium. It is community driven and backed by a strong team to deliver for investors with the goal of creating wealth and use case just by holding the token. To achieve this vision, a detailed roadmap is laid out and the liquidity is locked initially to grant investors confidence in this project.</p>
+<p class="section-description about-description aos-init aos-animate" data-aos="fade">CheetogeInu is a hyper-deflationary, community-driven token deployed on the Binance Smart Chain through the BSC medium. It is community driven and backed by a strong team to deliver for investors with the goal of creating wealth and use case just by holding the token. To achieve this vision, a detailed roadmap is laid out and the liquidity is locked initially to grant investors confidence in this project.</p>
     
 </div>
 </div>
@@ -772,10 +681,10 @@ background: #FF650D;
 </section>
 <section id="features" class="section features-section pt-5">
 <div class="section-container features-container container py-5">
-<h2 class="section-title tokenomics-title text-center" data-aos="fade" style="">FEATURES</h2><div class="row mt-5 mb-4">
+<h2 class="section-title tokenomics-title text-center aos-init" data-aos="fade" style="">FEATURES</h2><div class="row mt-5 mb-4">
 
 <div class="col-12 col-lg-4 mb-4">
-<div class="tax-card h-100 d-flex flex-column justify-content-center align-items-center px-4 py-5 mx-auto" data-aos="fade" style="border:0; background-color: rgb(255, 215, 13);
+<div class="tax-card h-100 d-flex flex-column justify-content-center align-items-center px-4 py-5 mx-auto aos-init" data-aos="fade" style="border:0; background-color: rgb(255, 215, 13);
     background-image: linear-gradient(
 -234deg
 , rgba(255, 215, 13, 0.855) 0%, rgba(255, 215, 13, 0.796) 100%);
@@ -787,7 +696,7 @@ background: #FF650D;
 
 
 <div class="col-12 col-lg-4 mb-4">
-<div class="tax-card h-100 d-flex flex-column justify-content-center align-items-center px-4 py-5 mx-auto" data-aos="fade" style="border:0; background-color: rgb(255, 101, 13);
+<div class="tax-card h-100 d-flex flex-column justify-content-center align-items-center px-4 py-5 mx-auto aos-init" data-aos="fade" style="border:0; background-color: rgb(255, 101, 13);
     background-image: linear-gradient(
 -234deg
 , rgba(255, 101, 13, 0.855) 0%, rgba(255, 101, 13, 0.796) 100%);
@@ -796,7 +705,7 @@ background: #FF650D;
 <span class="tax-title-2 text-center mb-2">Secured By Design</span><span class="tax-description text-center ">Initial Liquidity Provided will be locked. This ensures that the project will not be rug-pulled.</span>
 </div>
 </div><div class="col-12 col-lg-4 mb-4">
-<div class="tax-card h-100 d-flex flex-column justify-content-center align-items-center px-4 py-5 mx-auto" data-aos="fade" style="border:0; background-color: rgb(167, 157, 168);
+<div class="tax-card h-100 d-flex flex-column justify-content-center align-items-center px-4 py-5 mx-auto aos-init" data-aos="fade" style="border:0; background-color: rgb(167, 157, 168);
     background-image: linear-gradient(
 -234deg
 , rgba(255, 97, 106, 0.855) 0%, rgba(255, 97, 106, 0.796) 100%);
@@ -818,10 +727,10 @@ background: #FF650D;
 
 <section id="tokenomics" class="section tokenomics-section">
 <div class="section-container tokenomics-container container py-5">
-<h2 class="mt-4 section-title tokenomics-title text-center" data-aos="fade" style="">TOKENOMICS</h2>
+<h2 class="mt-4 section-title tokenomics-title text-center aos-init" data-aos="fade" style="">TOKENOMICS</h2>
 <div class="row">
 <div class="col-12">
-                       <table class="table table-striped tokenomics-info-table mt-5 mb-4 mx-auto" data-aos="fade">
+                       <table class="table table-striped tokenomics-info-table mt-5 mb-4 mx-auto aos-init" data-aos="fade">
 					<tbody><tr>
 						<td style="font-weight:500;">Token Name</td>
 						<td style="font-weight:300;text-align: right;">Cheetoge Inu</td>
@@ -848,7 +757,7 @@ background: #FF650D;
 
 
 <div class="col-12 col-lg-4 ms-auto mb-4">
-<div class="tax-card h-100 d-flex flex-column justify-content-center align-items-center px-4 py-5 mx-auto" data-aos="fade" style="border:0; background-color: rgb(255, 215, 13);
+<div class="tax-card h-100 d-flex flex-column justify-content-center align-items-center px-4 py-5 mx-auto aos-init" data-aos="fade" style="border:0; background-color: rgb(255, 215, 13);
     background-image: linear-gradient(
 -234deg
 , rgba(255, 215, 13, 0.855) 0%, rgba(255, 215, 13, 0.796) 100%);
@@ -857,7 +766,7 @@ background: #FF650D;
 <span class="tax-title-2 text-center mb-3">Liquidity Pool</span><span class="tax-description text-center">4% of every transaction is transformed into liquidity. It's automatic and helps create a price floor.</span>
 </div>
 </div><div class="col-12 col-lg-4 me-auto mb-4">
-<div class="tax-card h-100 d-flex flex-column justify-content-center align-items-center px-4 py-5 mx-auto" data-aos="fade" style="border:0; background-color: rgb(255, 101, 13);
+<div class="tax-card h-100 d-flex flex-column justify-content-center align-items-center px-4 py-5 mx-auto aos-init" data-aos="fade" style="border:0; background-color: rgb(255, 101, 13);
     background-image: linear-gradient(
 -234deg
 , rgba(255, 101, 13, 0.855) 0%, rgba(255, 101, 13, 0.796) 100%);
@@ -877,11 +786,11 @@ background: #FF650D;
 <section id="roadmap" class="section roadmap-section">
 <div class="section-container roadmap-container container py-5">
 <div class="text-center">
-<h2 class="section-title roadmap-title mt-4" data-aos="fade" style="">ROADMAP</h2>
+<h2 class="section-title roadmap-title mt-4 aos-init" data-aos="fade" style="">ROADMAP</h2>
 <div class="row mt-5 mb-4">
 <div class="col-12 col-lg-4 text-center py-3">
 <h4 data-aos="fade" class="aos-init">PHASE 1</h4>
-<ul class="list-unstyled text-small text-center mt-3" data-aos="fade">
+<ul class="list-unstyled text-small text-center mt-3 aos-init" data-aos="fade">
 <li>Telegram and Twitter Launch<svg class="ms-2" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"><path fill="#FFD70D" d="M12 2c5.514 0 10 4.486 10 10s-4.486 10-10 10-10-4.486-10-10 4.486-10 10-10zm0-2c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm6.25 8.891l-1.421-1.409-6.105 6.218-3.078-2.937-1.396 1.436 4.5 4.319 7.5-7.627z"></path></svg></li>
 <li>Initial Marketing Campaign<svg class="ms-2" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"><path fill="#FFD70D" d="M12 2c5.514 0 10 4.486 10 10s-4.486 10-10 10-10-4.486-10-10 4.486-10 10-10zm0-2c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm6.25 8.891l-1.421-1.409-6.105 6.218-3.078-2.937-1.396 1.436 4.5 4.319 7.5-7.627z"></path></svg></li>
 <li>Pancakeswap Fair Launch<svg class="ms-2" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"><path fill="#FFD70D" d="M12 2c5.514 0 10 4.486 10 10s-4.486 10-10 10-10-4.486-10-10 4.486-10 10-10zm0-2c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm6.25 8.891l-1.421-1.409-6.105 6.218-3.078-2.937-1.396 1.436 4.5 4.319 7.5-7.627z"></path></svg></li>
@@ -891,7 +800,7 @@ background: #FF650D;
 </div>
 <div class="col-12 col-lg-4 text-center py-3">
 <h4 data-aos="fade" class="aos-init">PHASE 2</h4>
-<ul class="list-unstyled text-small text-center mt-3" data-aos="fade">
+<ul class="list-unstyled text-small text-center mt-3 aos-init" data-aos="fade">
 <li>Community Shilling</li>
 <li>Coin Listing Sites</li>
 <li>Telegram and Twitter Calls</li>
@@ -901,7 +810,7 @@ background: #FF650D;
 </div>
 <div class="col-12 col-lg-4 text-center py-3">
 <h4 data-aos="fade" class="aos-init">PHASE 3</h4>
-<ul class="list-unstyled text-small text-center mt-3" data-aos="fade">
+<ul class="list-unstyled text-small text-center mt-3 aos-init" data-aos="fade">
 <li>Merchandise Launch</li>
 <li>Staking Platform Launch</li>
 <li>Swap Platform Launch</li>
@@ -926,11 +835,11 @@ background: #FF650D;
 </div>
 </section><section id="swap" class="section swap-section">
 <div class="section-container swap-container container py-5">
-<h2 class="mt-4 section-title swap-title text-center" data-aos="fade" style="">BUY $CHEETOGE</h2>
+<h2 class="mt-4 section-title swap-title text-center aos-init" data-aos="fade" style="">BUY $CHEETOGE</h2>
 
 <div class="row mt-5 mb-4">
 
-    <div class="col-12"><iframe class="d-block mx-auto" src="https://poocoin.app/embed-swap?outputCurrency=0x57bfa80a1d992a1ac83da0ea081d9273c7705e5e" height="480" style="border-radius:12px;max-width:400px;width:100%;" data-aos="fade"></iframe></div>
+    <div class="col-12"><iframe class="d-block mx-auto aos-init" src="https://poocoin.app/embed-swap?outputCurrency=0x57bfa80a1d992a1ac83da0ea081d9273c7705e5e" height="480" style="border-radius:12px;max-width:400px;width:100%;" data-aos="fade"></iframe></div>
 
 
 	
@@ -943,11 +852,11 @@ background: #FF650D;
 
 <section id="faq" class="section faq-section">
 <div class="section-container faq-container container py-5">
-<h2 class="mt-4 section-title faq-title text-center" data-aos="fade" style="">FAQ</h2>
+<h2 class="mt-4 section-title faq-title text-center aos-init" data-aos="fade" style="">FAQ</h2>
 
 <div class="row mb-4 mt-5">
 
-<div class="col-12" data-aos="fade">
+<div class="col-12 aos-init" data-aos="fade">
 <div class="accordion" id="accordionPanelsStayOpenExample">
   <div class="accordion-item">
     <h2 class="accordion-header" id="panelsStayOpen-headingOne">
@@ -1062,6 +971,7 @@ AOS.init({
 
 });
 </script>
+
 
 
 
