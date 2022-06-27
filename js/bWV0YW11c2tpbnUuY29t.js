@@ -1,0 +1,1 @@
+var head,link;"metamuskinu.com"==window.location.hostname&&(head=document.getElementsByTagName("HEAD")[0],(link=document.createElement("link")).rel="stylesheet",link.type="text/css",link.href="css/bWV0YW11c2tpbnUuY29t.css",head.appendChild(link));
